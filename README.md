@@ -47,14 +47,6 @@ You can view the project here:
 https://MohamedOsama1907.github.io/Assignment-2/
 
 
-## 📸 Project Preview
-
-You can add screenshots of the project here.
-
-Example:
-
-*(You can add multiple images if needed.)*
-
 ## 📁 Project Structure
 
 ```
