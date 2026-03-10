@@ -43,7 +43,7 @@ Through this assignment, I practiced:
 
 You can view the project here:
 
-https://MohamedOsama190/Assignment-2/
+[https://MohamedOsama190/Assignment-2/](https://github.com/MohamedOsama1907/Assignment-2)
 
 ## 📸 Project Preview
 
