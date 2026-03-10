@@ -61,9 +61,8 @@ Example:
 Assignment-2
 │
 ├── index.html
-├── style.css
+├── index.css
 ├── images
-│   └── preview.png
 └── README.md
 ```
 
