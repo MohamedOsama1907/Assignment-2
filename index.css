@@ -2,9 +2,19 @@
 }
 body {
   font-family: "Inter", sans-serif;
+  margin: 0;
 }
 .container {
-  padding: 70px 170px;
+  width: 80%;
+  margin: 140px auto 0;
+}
+a {
+  text-decoration: none;
+  color: #9ca3af;
+}
+ul {
+  list-style: none;
+  padding: 0;
 }
 .hero_content,
 .hero_image {
@@ -12,7 +22,10 @@ body {
   width: 43%;
 }
 .hero_content {
-  margin-right: 13%;
+  margin-right: 14%;
+}
+.hero_image {
+  margin-left: auto;
 }
 .hero_content h1 {
   margin: 0 0 10px;
@@ -47,10 +60,7 @@ body {
   border: 2px solid #cfc1c1;
   color: #364153;
 }
-.hero_image {
-  margin-left: auto;
-  padding: 5px;
-}
+
 .hero_image img {
   width: 80%;
 
@@ -232,14 +242,14 @@ body {
 }
 
 .statistics {
-  background-color: oklch(96.8% 0.007 247.896);
-  border: 1px solid oklch(92.9% 0.013 255.508);
+  background-color: #f1f5f9;
+  border: 1px solid #e2e8f0;
   margin-top: 50px;
   border-radius: 12px;
   padding: 48px;
   box-sizing: border-box;
   text-align: center;
-  height: 150px;
+  height: 160px;
 }
 .statistics div {
   float: left;
@@ -247,5 +257,174 @@ body {
 }
 /* by searching on the selectors and we can replace it by puting class on them and select them */
 .statistics div:not(:nth-last-of-type(2)) {
-  margin-right: calc(10% / 3);
+  margin-right: calc(20% / 3);
+}
+
+.statistics span {
+  font-size: 32px;
+  font-weight: 800;
+}
+.statistics p {
+  color: #4a5565;
+  font-size: 15px;
+}
+
+/* a new container that is suitable for the form */
+.membership-form .container form {
+  box-sizing: border-box;
+  width: 70%;
+  margin: auto;
+}
+
+form {
+  background-color: #fbf9fa;
+  padding: 48px;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #101828;
+}
+.form > div {
+  /* the direct child      جديدة لسه هناخدها في السيلكتورز*/
+  margin-bottom: 25px;
+}
+.first-name,
+.last-name {
+  float: left;
+  width: 47%;
+}
+.first-name {
+  margin-right: 6%;
+}
+.first-name input,
+.last-name input {
+  box-sizing: border-box; /*width لانه واخد باديندج فبيتحسب من ال  fist-name, last-name عشان الانبوت ميعديش الاب بتاعه اللي هوا  */
+  width: 100%;
+  border: none;
+  padding: 16px 24px;
+  border: 1px solid #d1d5dc;
+  border-radius: 8px;
+}
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+.email input,
+.phone input,
+.membership select,
+.fitness-goals textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  padding: 16px 24px;
+  border: 1px solid #d1d5dc;
+  border-radius: 8px;
+}
+.fitness-goals textarea {
+  resize: none;
+  min-height: 90px;
+}
+.form .button {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.form p {
+  text-align: center;
+  font-size: 14px;
+  color: #4a5565;
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: #101828;
+  padding: 80px 24px;
+}
+.footer .container {
+  width: 90%;
+  margin: 0 auto;
+}
+.footer-content {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #99a1af;
+}
+.footer-info {
+  float: left;
+  width: 50%;
+  margin-right: 3%;
+}
+.quick-links {
+  float: left;
+  width: 20%;
+  margin-right: 1%;
+}
+.contact-info {
+  float: left;
+  width: 26%;
+}
+
+.footer-info h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+.footer-info p {
+  color: #99a1af;
+  word-spacing: 1.6;
+  line-height: 1.6;
+  font-size: 18px;
+}
+.footer-info a {
+  margin-right: 20px;
+  margin-top: 15px;
+  display: inline-block;
+}
+.quick-links h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.quick-links ul li {
+  margin-bottom: 15px;
+}
+.contact-info h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.contact-info .text {
+  margin-bottom: 15px;
+}
+.contact-info .text h5 {
+  margin: 0 0 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+.contact-info .text div {
+  color: #99a1af;
+}
+.copyright .copy {
+  float: left;
+}
+.copyright .copy p {
+  color: #99a1af;
+  font-size: 12px;
+}
+.copyright .links {
+  float: right;
+  margin-top: 12px;
+}
+.copyright .links a {
+  margin-right: 10px;
+  font-size: 12px;
 }
