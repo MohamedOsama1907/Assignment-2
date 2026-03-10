@@ -39,11 +39,13 @@ Through this assignment, I practiced:
 * Organizing page sections properly
 * Building forms and UI elements
 
+
 ## 🚀 Live Preview
 
 You can view the project here:
 
-[https://MohamedOsama190/Assignment-2/](https://github.com/MohamedOsama1907/Assignment-2)
+https://MohamedOsama1907.github.io/Assignment-2/
+
 
 ## 📸 Project Preview
 
