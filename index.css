@@ -160,7 +160,7 @@ ul {
 .more-benefits .content {
   float: left;
   width: 48%;
-  min-height: 400px;
+  height: 370px;
 }
 .more-benefits .image {
   margin-right: 4%;
