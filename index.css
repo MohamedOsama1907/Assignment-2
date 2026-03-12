@@ -70,6 +70,9 @@ ul {
 .clr {
   clear: both;
 }
+
+/* why-choose-us section */
+
 .title {
   text-align: center;
   margin-bottom: 70px;
@@ -93,7 +96,7 @@ ul {
   text-align: center;
   padding: 32px;
   border-radius: 10px;
-  height: 280px;
+  min-height: 280px;
   box-sizing: border-box;
 }
 .card1 {
@@ -157,7 +160,7 @@ ul {
 .more-benefits .content {
   float: left;
   width: 48%;
-  height: 400px;
+  min-height: 400px;
 }
 .more-benefits .image {
   margin-right: 4%;
@@ -184,6 +187,8 @@ ul {
   color: #4a5565;
 }
 
+/* testimonials section */
+
 .testimonials {
   background-color: #fbf9fa;
 }
@@ -191,7 +196,7 @@ ul {
   float: left;
   border-radius: 12px;
   padding: 32px;
-  height: 260px;
+  min-height: 260px;
   width: 32%;
   box-sizing: border-box;
 }
@@ -249,7 +254,7 @@ ul {
   padding: 48px;
   box-sizing: border-box;
   text-align: center;
-  height: 160px;
+  min-height: 160px;
 }
 .statistics div {
   float: left;
@@ -268,6 +273,8 @@ ul {
   color: #4a5565;
   font-size: 15px;
 }
+
+/* membership-form  section*/
 
 /* a new container that is suitable for the form */
 .membership-form .container form {
@@ -342,9 +349,12 @@ label {
   margin-top: 30px;
 }
 
+/* Footer Section */
+
+/*  فيه مشكلة في حوار البادينج و المارجين و الكونتينر */
 .footer {
   background-color: #101828;
-  padding: 80px 24px;
+  padding: 80px 62px;
 }
 .footer .container {
   width: 90%;
@@ -413,6 +423,9 @@ label {
 .contact-info .text div {
   color: #99a1af;
 }
+
+/* copy right section */
+
 .copyright .copy {
   float: left;
 }
@@ -427,4 +440,5 @@ label {
 .copyright .links a {
   margin-right: 10px;
   font-size: 12px;
+  display: inline-block;
 }
