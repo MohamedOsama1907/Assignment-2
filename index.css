@@ -350,6 +350,7 @@ label {
   color: #4a5565;
   margin-top: 30px;
 }
+
 /* placeholder section */
 input,
 textarea::placeholder {
@@ -357,6 +358,8 @@ textarea::placeholder {
   color: #7c7d7d;
   font-family: "Inter", sans-serif;
 }
+
+select, /* to make me access on the preview that apears to user  */
 select option {
   font-size: 18px;
   font-weight: 400;
@@ -368,7 +371,6 @@ select option {
 
 /* Footer Section */
 
-/*  فيه مشكلة في حوار البادينج و المارجين و الكونتينر */
 .footer {
   background-color: #101828;
 }
